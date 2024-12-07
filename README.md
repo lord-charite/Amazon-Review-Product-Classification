@@ -11,18 +11,18 @@ Objective:  Train and evaluate machine learning models to classify reviews as hi
 # Key Steps
 
 - Data Preprocessing:
-    Extract features using reviewText and optionally other columns.
-    Preprocess text (e.g., stop-word removal, tokenization).
+    - Extract features using reviewText and optionally other columns.
+    - Preprocess text (e.g., stop-word removal, tokenization).
   
 - Feature Engineering: Use TF-IDF or other feature representations.
   
 - Model Training:
-    Train at least three ML classifiers (e.g., Logistic Regression, Random Forest, SVM).
-    Perform hyperparameter tuning using 5-fold cross-validation.
+    - Train at least three ML classifiers (e.g., Logistic Regression, Random Forest, SVM).
+    - Perform hyperparameter tuning using 5-fold cross-validation.
 
 - Evaluation:
-    Compare models using precision, recall, and macro F1-score.
-    Select the best model and generate predictions for the test set.
+    - Compare models using precision, recall, and macro F1-score.
+    - Select the best model and generate predictions for the test set.
 
 
 # Part 2: Classification with LLMs
@@ -39,6 +39,6 @@ Evaluate an open-source large language model (LLM) for the classification task u
 - Evaluation: Report precision, recall, and macro F1-score for each prompting strategy.
 
 - Perform error analysis on:
-    Prompt instructions.
-    Class definitions.
+    - Prompt instructions.
+    - Class definitions.
   
