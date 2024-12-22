@@ -1,6 +1,6 @@
 # Overview
 
-This project aims to classify Amazon product reviews as high-star reviews (rating > 3) or low-star reviews (rating ≤ 3). It is divided into two parts:
+This project aims to classify Amazon product reviews as high-star reviews (rating = 1) or low-star reviews (rating = 0). It is divided into two parts:
   1) Binary Classification with Machine Learning Models
   2) Classification with Large Language Models (LLMs)
      
